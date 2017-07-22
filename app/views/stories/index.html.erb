@@ -1,32 +1,49 @@
 <div class="about-container">
   <ul>
-    <li><%=link_to "ABOUT", "#linktoabout"%></li>
-    <li><%=link_to "CODE SNIPPETS", "#linktosnippets"%></li>
-    <li><%=link_to "WEB APPS", "#linktowebapps"%></li>
-    <li><%=link_to "SKILLS & TOOLS", "#linktoskillstools"%></li>
+    <li><%=link_to "ABOUT", "#linktoabout", :class=>"nav-link"%></li>
+    <li><%=link_to "CODE SNIPPETS", "#linktosnippets", :class=>"nav-link"%></li>
+    <li><%=link_to "WEB APPS", "#linktowebapps", :class=>"nav-link"%></li>
+    <li><%=link_to "SKILLS & TOOLS", "#linktoskillstools", :class=>"nav-link"%></li>
   </ul>
+
+  <div class="about">
+    <%=image_tag("me-copy.jpg", :class=>"img")%>
+    <h1>Jorge Hernandez</h1>
+    <h2>ASPIRING SOFTWARE ENGINEER</h2>
+    <hr class="grey">
+    <p>Jorge is someone who is consistently growing themselves and who takes the time to continue learning even though it's not a direct requirement of the job.  I find that many times it's a combination of what you study both directly and indirectly related to work. I seek to work for a successful company that has strong leadership and vision and who recognizes and rewards performers</p>
+  </div>
 </div>
 
-<h1>Jorge Hernandez</h1>
-
 <div id="container">
-  <div class="section">
-    <h1 id="linktoabout">ABOUT</h1>
-    <p>This is about me!</p>
-  </div>
 
-  <div class="section">
-    <h1 id="linktosnippets">CODE SNIPPETS</h1>
-    <p>My code snippets go here!</p>
+  <h3 id="linktosnippets">CODE SNIPPETS</h3>
+  <hr class="aqua">
+  <div class="box"></div>
+    <h4>Temperature Conversion</h4>
+    <p>This program written in the Ruby language will prompt the user for a temperature in degrees Celcius and let the user know what the corresponding temperature is in Farehneit.</p>
   </div>
+  <div class="box">
+    <pre class="lang-ruby">
+      <code class="lang-ruby">
 
-  <div class="section">
-    <h1 id="linktowebapps">WEB APPS</h1>
+      </code>
+    </pre>
+  </div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+
+  <div>
+    <h3 id="linktowebapps">WEB APPS</h3>
+    <hr class="aqua">
     <p>This is my web apps!</p>
   </div>
 
-  <div class="section">
-    <h1 id=linktoskillstools>SKILLS & TOOLS</h1>
+  <div>
+    <h3 id=linktoskillstools>SKILLS & TOOLS</h3>
+    <hr class="aqua">
     <p>These are my skills and tools!</p>
   </div>
 </div>

@@ -1,8 +1,26 @@
 @import "bootstrap";
 
-* {
-  margin: 0;
-  padding: 0;
+body{
+  background-size: cover;
+  background-image: url(mk.jpg);
+  background-attachment: fixed;
+}
+
+.img{
+  height: 175px;
+  border-radius: 30px;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  margin-top: 40px;
+}
+
+.about{
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #F3F2FC;
 }
 
 #container {
@@ -11,14 +29,69 @@
 }
 
 /*Text Sections*/
-.section {
-  margin: 50px 0;
+
+h2{
+  font-size: 18px;
+  margin-top: 0px;
 }
 
-.section h1 {
-  font: 55px/65px Helvetica, sans-serif;
+h3 {
+  display: block;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 500;
+  margin-top: 70px;
+  margin-bottom: 20px;
 }
 
-.section p {
+.about p {
   font: 15px/25px Helvetica, sans-serif;
+  margin: none;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+
+}
+
+a.nav-link {
+  padding: 0;
+}
+
+.nav-link:hover{
+  color: #7FFFD4;
+}
+
+ul{
+  display: block;
+}
+
+li {
+  margin: none;
+  display: inline-block;
+  font-size: 12px;
+  width: 100px;
+  font-weight: bold;
+  margin-top: 30px;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 30px;
+}
+
+.grey {
+  height: 3px;
+  background-color: #E9E6FF;
+  border: none;
+  width: 50px;
+}
+
+.aqua {
+  border: 0;
+  height: 5px;
+  background-image: -webkit-linear-gradient(left, rgba(209,6,108,0), rgb(6, 209, 209), rgba(209,6,108,0));
+  width: 250px;
+  border-bottom: none;
+  border-right: none;
 }
