@@ -23,11 +23,6 @@ body{
   color: #F3F2FC;
 }
 
-#container {
-  width: 600px;
-  margin: 50px auto;
-}
-
 /*Text Sections*/
 
 h2{
@@ -42,6 +37,11 @@ h3 {
   font-weight: 500;
   margin-top: 70px;
   margin-bottom: 20px;
+  color: #00BFFF;
+}
+
+h4{
+  color: #F0F8FF;
 }
 
 .about p {
@@ -90,8 +90,51 @@ li {
 .aqua {
   border: 0;
   height: 5px;
-  background-image: -webkit-linear-gradient(left, rgba(209,6,108,0), rgb(6, 209, 209), rgba(209,6,108,0));
+  background-image: -webkit-linear-gradient(left, rgba(209, 6, 108, 0), #4995f5, rgba(209, 6, 108, 0));
   width: 250px;
   border-bottom: none;
   border-right: none;
+}
+
+.box {
+  float: left;
+  width: 42.5%;
+  margin-left: 5%;
+  margin-top: 60px;
+}
+
+.language-ruby{
+  color: #c5c8c6;
+}
+
+.token{
+  color: #A8FF60;
+}
+
+.number{
+  color: #FF73FD;
+}
+
+.interpolation{
+  color: #FF00FF;
+}
+
+.keyword{
+  color: #FF6347;
+}
+
+.method{
+  color: #87CEFA;
+}
+
+p {
+  color: #F8F8FF;
+}
+
+pre{
+  background-color: #1d1f21;
+}
+
+.clear{
+  clear: both;
 }
