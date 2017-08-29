@@ -5,26 +5,22 @@
     <li><%=link_to "WEB APPS", "#linktowebapps", :class=>"nav-link"%></li>
     <li><%=link_to "SKILLS & TOOLS", "#linktoskillstools", :class=>"nav-link"%></li>
   </ul>
-
   <div class="about">
     <%=image_tag("me-copy.jpg", :class=>"img")%>
     <h1>Jorge Hernandez</h1>
     <h2>ASPIRING SOFTWARE ENGINEER</h2>
     <hr class="grey">
-    <p>Jorge is someone who is consistently growing themselves and who takes the time to continue learning even though it's not a direct requirement of the job.  I find that many times it's a combination of what you study both directly and indirectly related to work. I seek to work for a successful company that has strong leadership and vision and who recognizes and rewards performers</p>
+    <p>I am someone who is consistently growing and takes the time to continue learning even though it's not a direct requirement of the job.  I find that many times it's a combination of what you study both directly and indirectly related to work. I seek to work for a successful company that has strong leadership and vision and who recognizes and rewards performers.</p>
   </div>
 </div>
-
 <h3 id="linktosnippets">CODE SNIPPETS</h3>
 <hr class="aqua">
-
 <div class="box">
   <h4>Temperature Conversion</h4>
   <p>
   This ruby program will prompt the user for a temperature in degrees Celsius and let the user know what the corresponding temperature is in Farehneit.
   </p>
 </div>
-
 <div class="box">
   <pre><code class="language-ruby">
   puts <span class="token string">"Enter a temperature in degrees Celsius:"</span>
@@ -45,9 +41,7 @@
   <span class="token comment" spellcheck="true"><span class="interpolation">#{</span>farenheit<span class="interpolation">}</span> degrees Farenheit."</span>
   </code></pre>
 </div>
-
 <br class="clear" />
-
 <div class="box">
   <pre class="language-ruby"><code class="language-ruby">
   puts <span class="token string">"Enter a number:"</span>
@@ -110,25 +104,82 @@
   foobar(range)
   </code></pre>
 </div>
-
 <br class="clear">
-
-<div>
-  <h3 id="linktowebapps">WEB APPS</h3>
+<h3 id="linktowebapps">WEB APPS</h3>
+<hr class="aqua">
+<div class="box">
+  <h4>Yelp Clone</h4>
+  <%= link_to "http://nomster-jnandez.herokuapp.com" do %>
+    <%= image_tag('nomster.png', :class=>"full-width") %>
+  <% end %>
+  <p>A Yelp clone that integrates with the Google Maps API and includes features like user comments, star ratings, image uploading, and user authentication.</p>
+</div>
+<div class="box">
+  <h4>Video Streaming Platform</h4>
+  <%= link_to "http://flixter-jnandez.herokuapp.com/" do %>
+    <%= image_tag('flixter.png', :class=>"full-width") %>
+  <% end %>
+  <p>A video-streaming marketplace platform that features credit card payment capabilities, user role management, complex user interfaces, and advanced database relationships.</p>
+</div>
+<div class="box">
+  <h4>Quote Generator</h4>
+  <%= link_to "https://splurtys-jorge-hernandez.herokuapp.com/" do %>
+    <%= image_tag('splurty.png', :class=>"full-width") %>
+  <% end %>
+  <p>A database-powered quote generator with a mobile-first design, using the Ruby on Rails framework, HTML, and CSS. Uses Git and GitHub for version control, and launched on Heroku.</p>
+</div>
+<div class="box">
+  <h4>Test Driven Development</h4>
+  <%= link_to "http://grammable-jh.herokuapp.com/" do %>
+    <%= image_tag('grammable.png', :class=>"full-width") %>
+  <% end %>
+  <p>An Instagram clone built using industry-standard, test-driven development following numerous red/green/refactor cycles.</p>
+</div>
+<br class="clear">
+<div class="box">
+  <h4>Single Page ToDo App</h4>
+  <%= link_to "https://todo-jh.herokuapp.com/" do %>
+    <%= image_tag('todo.png', :class=>"full-width") %>
+  <% end %>
+  <p>This single-page ToDo application features a fluid user interface that allows users to rapidly add dynamic content by using JavaScript.</p>
+</div>
+<div class="box">
+  <h4>Agile Team Project</h4>
+  <%= link_to "https://let-the-wookie-win.herokuapp.com/" do %>
+    <%= image_tag('chess1.png', :class=>"full-width") %>
+  <% end %>
+  <p>This single-page ToDo application features a fluid user interface that allows users to rapidly add dynamic content by using JavaScript. Still in the works!</p>
+</div>
+<br class="clear">
+<h3 id=linktoskillstools>SKILLS & TOOLS</h3>
+<hr class="aqua">
+<p>I am gaining proficiency in the following programming languages and am becoming comfortable with the tools listed below.</p>
+<div class="icons">
+  <%= image_tag("trello-logo-blue.png", :class=>"icon width") %>
+  <%= image_tag("rubocop.png", :class=>"icon") %>
+  <%= image_tag("GitHub-Mark-120px-plus.png", :class=>"icon width") %>
+  <%= image_tag("slack.png", :class=>"icon") %>
+  <%= image_tag("nodejs.png", :class=>"icon width") %>
+  <br class="clear">
+  <%= image_tag("skills.png", :class=>"icon") %>
+</div>
+<div class="contact">
+  <h3 class="contact-headline">Contact</h3>
   <hr class="aqua">
-  <div class="box">
-    <h4>Quote Generator</h4>
-
-  </div>
-  <div class="box"></div>
-  <div class="box"></div>
-  <div class="box"></div>
-  <div class="box"></div>
-  <div class="box"></div>
+  <p>
+    <br>
+    <%= mail_to "jnandez565@gmail.com", "Email me", :class=>"contact-link" %>
+  </p>
 </div>
 
-<div>
-  <h3 id=linktoskillstools>SKILLS & TOOLS</h3>
-  <hr class="aqua">
-  <p>These are my skills and tools!</p>
-</div>
+
+
+
+
+
+
+
+
+
+
+
